@@ -35,5 +35,5 @@ module.exports = {
       }
     }
   },
-  plugins: ['~plugins/common', { src: '~plugins/editor.js', ssr: false }]
+  plugins: ['~plugins/common']
 }

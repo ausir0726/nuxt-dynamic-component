@@ -6,8 +6,12 @@
 </div>
 </template>
 <script>
+const Editor = process.BROWSER_BUILD ? require('~components/editor.vue') : ''
 
 export default {
+  components: {
+    Editor
+  },
   data () {
     return { newcon: '' }
   }
